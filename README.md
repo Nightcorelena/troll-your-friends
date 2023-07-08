@@ -6,7 +6,7 @@
 - Language Support fault has been corrected.
 - Added Ingame Music
 - New Start Screen 
-- Language added German, Dutch, Japanese
+- Language added German, Dutch
 
 # Preview 
 
@@ -14,31 +14,31 @@
 
 # How can I run the Application?
 
-- 1. Download the [Source Code](https://github.com/Nightcorelena/troll-your-friends/archive/refs/heads/main.zip) or the [Game](https://github.com/Nightcorelena/troll-your-friends/releases)
-- 2. (Source Code Download) Extrakt the Zip file and run the batch file (.bat) (Only Windows Support)
-- 2. (Game Download) Extrakt the Zip file and run the .exe file if you are using windows (Only Windows Support)
-- 3. Have fun to play c:
+- 1 Download the [Source Code](https://github.com/Nightcorelena/troll-your-friends/archive/refs/heads/main.zip) or the [Game](https://github.com/Nightcorelena/troll-your-friends/releases)
+- 2 (Source Code Download) Extrakt the Zip file and run the batch file (.bat) (Only Windows Support)
+- 2 (Game Download) Extrakt the Zip file and run the .exe file if you are using windows (Only Windows Support)
+- 3 Have fun to play c:
 
 # How can I run the Application from terminal?
 
-- 1. Download [Node.js](https://nodejs.org/en/download)
-- 2. Open the downloaded extrakted folder delete the folder path and write cmd press enter.
-- 3. Write in the Console "npm i" and wait.
-- 4. run the game with "npm start"
+- 1 Download [Node.js](https://nodejs.org/en/download)
+- 2 Open the downloaded extrakted folder delete the folder path and write cmd press enter.
+- 3 Write in the Console "npm i" and wait.
+- 4 run the game with "npm start"
 
 # How can I change the Meme?
 
-- 1. cd /little_game/assets/logos
-- 2. open load_intro.js and replace the content from id: "here your video url" with your own Meme
-- 3. Build the Project and share it with the World
+- 1 cd /little_game/assets/logos
+- 2 open load_intro.js and replace the content from id: "here your video url" with your own Meme
+- 3 Build the Project and share it with the World
 
 # how can I add a Translation?
 
-- 1. Start to [fork](https://github.com/Nightcorelena/troll-your-friends/fork) our project.
-- 2. open cd /little_game/assets/language
-- 3. create a new file call it in your [Country code.js](https://www.w3schools.com/tags/ref_country_codes.asp)
-- 4. copy paste the text content from a translation files and start to tranlate the content in your language
-- 5. Create a [poll request]() and wait.
+- 1 Start to [fork](https://github.com/Nightcorelena/troll-your-friends/fork) our project.
+- 2 open cd /little_game/assets/language
+- 3 create a new file call it in your [Country code.js](https://www.w3schools.com/tags/ref_country_codes.asp)
+- 4 copy paste the text content from a translation files and start to tranlate the content in your language
+- 5 Create a [poll request]() and wait.
 
 # Disclaimer & License
 
