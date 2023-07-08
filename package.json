@@ -1,53 +1,55 @@
 {
-  "name": "my-app",
-  "productName": "my-app",
-  "version": "1.0.0",
-  "description": "My Electron application description",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "electron-packager ."
-  },
-  "keywords": [],
-  "author": "lena",
-  "license": "MIT",
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "my_app"
-          }
+    "name": "fishworld",
+    "version": "2.0.7",
+    "description": "a little pixelart game :3",
+    "copyright": "Nightcorelena Inc.",
+    "author": "Nightcorelena Inc. <support@nightcorelena.de>",
+    "homepage": "https://support.nightcorelena.de",
+    "main": "assets/scripts/run_start.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder",
+        "build-linux": "electron-builder --linux",
+        "build-macos": "electron-builder --mac"
+    },
+    "devDependencies": {
+        "electron": "^14.2.9",
+        "electron-builder": "^23.0.3"
+    },
+    "dependencies": {
+        "discord-rich-presence": "^0.0.8"
+    },
+    "build": {
+        "appId": "com.nightcorelenainc.fishworld",
+        "win": {
+            "target": [
+                "nsis"
+            ],
+            "icon": "assets/logos/logo.ico"
         },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
+        "linux": {
+            "target": [
+                "deb"
+            ],
+            "description": "a little pixelart game :3",
+            "category": "game",
+            "icon": "assets/logos/logo.png"
         },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
+        "mac": {
+            "target": [
+                "dmg"
+            ],
+            "category": "public.app-category.games",
+            "icon": "assets/logos/logo.png"
         },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
+        "nsis": {
+            "allowToChangeInstallationDirectory": true,
+            "oneClick": false,
+            "createDesktopShortcut": true,
+            "installerIcon": "assets/logos/logo.ico",
+            "uninstallerIcon": "assets/logos/logo.ico",
+            "uninstallDisplayName": "Fish mini game uninstaller :(",
+            "license": "assets/legal/LICENSE.md"
         }
-      ]
     }
-  },
-  "dependencies": {
-    "discord-rpc": "^3.2.0",
-    "electron-packager": "^15.2.0",
-    "electron-squirrel-startup": "^1.0.0"
-  },
-  "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.57",
-    "@electron-forge/maker-deb": "^6.0.0-beta.57",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.57",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.57",
-    "@electron-forge/maker-zip": "^6.0.0-beta.57",
-    "electron": "13.0.1"
-  }
 }

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fish Game</title>
+        <link rel="stylesheet" href="../assets/style/index.css"/>
+        <script type="text/javascript" src="../assets/scripts/run_game.js" defer></script>
+        <script type="text/javascript" src="../assets/logos/load_intro.js" defer></script>
+        <script type="text/javascript" src="../assets/language/translate_module.js" defer></script>
+    </head>
+    <body>
+        <img class="img" src="https://i.pinimg.com/originals/01/40/cb/0140cbe44dae11035a7e73cffa930133.gif">
+        <div class="start_screen" id="start_screen">
+            <div class="menu">
+                <button id="start">Start Game</button>
+                <button id="option">Option Menu</button>
+                <button id="close">Back to Windows</button>
+            </div>
+            <div class="title">
+                <h1>Fish Game</h1>
+            </div>
+            <div class="footer">
+                <h1>All rights reserved Nightcorelena Inc.</h1>
+                <h1 class="Version">Version: 2.0.2</h1>
+            </div>
+            <iframe id="music" width="0" height="0" frameborder="0"></iframe>
+        </div>
+        <div class="scroll" id="option_screen">
+            <div class="fuck"></div>
+            <div class="option_screen">
+            <div>
+                <button class="click_me" id="close_option">Back to Startscreen</button>
+                <div class="category t_c">
+                    <p>Grafik Settings:</p>
+                </div>
+                <div class="grafik category">
+                    <div>
+                        <p>V Sync:</p>
+                        <div class="dropdown-options">
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">On</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Off</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Qualität:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Low</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">Simple</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">High</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Texture Qualität:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Low</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">Simple</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">High</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Shadow Qualität:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Low</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">Simple</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">High</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <p>Light Qualität:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="light1" name="light" value="0">
+                                <label for="light1">Low</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="light2" name="light" value="1" checked>
+                                <label for="light2">Simple</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="light" value="2">
+                                <label for="light">High</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category t_c">
+                    <p>Game Settings:</p>
+                </div>
+                <div class="game category">
+                    <div>
+                        <p>Subtitles:</p>
+                        <div class="dropdown-options">
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">On</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Off</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Subtitles Language:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Japanese</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">German</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">English</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Game Language:</p>
+                        <div class="dropdown-options">
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">Dutch</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="huey" name="drone" value="huey">
+                                <label for="huey">German</label>
+                            </div>
+                            <div class="checked">
+                                <input type="radio" id="huey" name="drone" value="huey" checked>
+                                <label for="huey">English</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="game_screen" id="game_screen">
+            <video class="test" autoplay muted id="video">
+                <source  type="video/mp4">
+            </video>
+        </div>
+    </body>
+</html>
